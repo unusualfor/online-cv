@@ -121,7 +121,7 @@ experiences:
             - Best Paper Award, IEEE ICC 2018
             - 4 graduating students supervisor
             - Visiting scholar at UCLA
-    - role: Intern (Seeds for Future program)
+      - role: Intern (Seeds for Future program)
         time: 2017
         company: Huawei, Shenzhen and Beijing
         details: |
@@ -230,7 +230,7 @@ publications:
         authors: G. Davoli, W. Cerroni, C. Contoli, F. Foresta, F. Callegati
         conference: IEEE Conference on Network Function Virtualization and Software Defined Networks, 2017
 
-      - title: Improving OpenStack networking: Advantages and performance of native SDN integration
+      - title: "Improving OpenStack networking: Advantages and performance of native SDN integration"
         link: "#"
         authors: F. Foresta, W. Cerroni, L. Foschini, G. Davoli, C. Contoli, A. Corradi, F. Callegati
         conference: IEEE International Conference on Communications, 2018
