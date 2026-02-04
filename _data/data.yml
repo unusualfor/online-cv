@@ -3,287 +3,256 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+    position: right # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
-  # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    # Profile information
+    name: Francesco Foresta
+    tagline: Principal Architect | Telco | Edge | Cloud-Native Telecom | 5G RAN and Core | 4+ Patents 
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-  # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+    # Sidebar links
+    email: fr [dot] foresta [at] gmail [dot] com
+    phone: 
+    timezone: Europe/Rome Timezone
+    citizenship: Italian
+    website: francescoforesta.com #do not add http://
+    linkedin: frforesta
+    xing: 
+    github: unusualfor
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '@unusualforit'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: 176858677-francesco-foresta
+    pdf: 
 
-  languages:
-    title: Languages
-    info:
-    - idiom: English
-      level: Native
+    languages:
+      title: Languages
+      info:
+        - idiom: Italian
+          level: Native
 
-    - idiom: French
-      level: Professional
+        - idiom: English
+          level: Professional
 
-    - idiom: Spanish
-      level: Professional
+    interests:
+      title: Interests
+      info:
+        - item: Traveling
+          link:
 
-  interests:
-    title: Interests
-    info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
-
+        - item: Cooking
+          link:
 
         - item: Walking
           link:
 
 career-profile:
-  title: Career Profile
-  summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    title: Career Profile
+    summary: |
+      I try everyday to creatively innovate telecom equipment by means of networking, 
+      Kubernetes, eBPF and related open source cloud native technologies. 
+      I have been designing and deploying system architectures in R&D for more than 9 years, 
+      providing comprehensive solutions and supporting the related delivery.
+      I currently work as a Principal Architect at JMA Wireless, tailoring mid-term and long-term
+      technical and business requirements into Cloud, AI and Telecommunications products.
 education:
-  title: Education
-  info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    title: Education
+    info:
+      - degree: MSc in Telecommunications Engineering
+        university: University of Bologna
+        time: 2015 - 2017
+        details: |
+          Advanced calculus and graph theory, advanced radio systems, photonics, 
+          wireless sensor networks, teletraffic, delay-tolerant networking, optical networking, 
+          advanced computer networking, distributed systems and middlewares, multimedia services.
+            - Performed international research in collaboration with EIT and UCLA on SDN controllers performance in cloud environments
+            - Networking Lab 101 (BSc) course assistant
+            - Graduated with 110L/110, 2x scholarship winner
+      - degree: BSc in Electronics, Computer Science and Telecommunications Engineering
+        university: University of Bologna
+        time: 2011 - 2015
+        details: |
+           Activities and societies: Calculus, algebra, advanced physics, chemistry, economics, electrotechnics, 
+           automation, electrical machines, advanced electronics, computer science, digital systems programming, 
+           free and guided propagation, advanced transmission systems, computer networking.
+             - Graduated with 110/110
 
 experiences:
-  title: Experiences
-  info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    title: Experiences
+    info:
+      - role: Principal Architect, vRAN Infrastructure and Orchestration
+        time: 2018 - Present
+        company: JMA Wireless, Bologna Technical Center
+        details: |
+           Kickstarted the newly created dynamic architecture team to research and spearhead the exploration, definition, 
+           and implementation of system-level specifications, propelling the development efforts for the JMA XRAN 5G solution. 
+           Active contribution to enhancing product distinctiveness, facilitating knowledge exchange within the organization, 
+           ensuring compliance with customer requirements, pertinent regulations, and industry benchmarks 
+           in terms of interoperability, security, and performance.
+           Regular engagement in C-level meetings, supporting and providing strategic guidance and insights to 
+           shape the long-term future direction of the company. These meetings serve as crucial platforms for 
+           advising key stakeholders and collaboratively defining the next steps to drive organizational success.
+            - (2021-2023) Manager, 5G O&M and Cloud: led a team of 10 members towards transitioning JMA XRAN to Cloud.
+            - (2019-2021) System Architect
+            - (2018-2019) Networking System Designer 
+      - role: System and Network Engineer
+        time: 2017 - 2018
+        company: Guglielmo Marconi Labs, Bologna
+        details: |
+          Design, implementation and monitoring of IP networks and systems for public and large-scale private companies.
+          Professional services and training engineer. 
+          Support to the internal Network and Security Operations Center (NOC/SOC) activities.
+            - System and network migration of a city-wide set of hospitals with 0% downtime
+            - Full integration of a large-scale retail trade into a 24/7 live monitoring mesh
+      - role: Cloud Solutions Designer
+        time: 2014 - 2017
+        company: University of Bologna, Cesena and Bologna
+        details: |
+          Design, deployment and integration of different cloud clusters for funded research projects.
+          Performance evaluation and improvement of the virtual cloud infrastructure.
+            - Best Paper Award, IEEE ICC 2018
+            - 4 graduating students supervisor
+            - Visiting scholar at UCLA
+      - role: Intern (Seeds for Future program)
+        time: 2017
+        company: Huawei, Shenzhen and Beijing
+        details: |
+          Implementation of 2G/3G/4G RAN and core network architectures, triple-play services over GPON access 
+            - Recognized as one of the top ten Italian ICT students in 2017
 
 certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      title: Certifications
+      list:
+        - name: Certified Kubernetes Administrator
+          start: 2021
+          end: 2024
+          organization: The Linux Foundation
+          credentialid: LF-juou82zkk3
+          credentialurl: www.credly.com/badges/7f08f251-a3e7-4312-ae54-1f833f0b6b13
+          credentialname: CKA
+          details: |
+            Kubernetes proficiency in Application Lifecycle Management, Installation, Configuration & Validation, 
+            Core Concepts, Networking, Scheduling, Security, Cluster Maintenance, Logging / Monitoring, Storage, 
+            and Troubleshooting
+        - name: Istio service mesh, Cilium service mesh (various) 
+          start: 2023
+          end: 
+          organization: Tetrate, acend gmbh, Isovalent, others
+          credentialid: 
+          credentialurl: 
+          credentialname: CIL
+          details: |
+            Several courses on Kubernetes service meshes such as Istio and Cilium
+        - name: Google Cloud (various)
+          start: 2021
+          end: 
+          organization: Coursera
+          credentialid: 
+          credentialurl: 
+          credentialname: GCP
+          details: |
+            Google Cloud Fundamentals, Architecting, Reliable Cloud Design and Process, Infrastructure, Core Services,
+            Scaling, Automation
+        - name: Professional Engineering License
+          start: 2020
+          end:
+          organization: University of Bologna
+          credentialid: 
+          credentialurl: 
+          credentialname: ENG
+          details: | 
+        - name: IELTS (C1)
+          start: 2015
+          end:
+          organization: British Council
+          credentialid: 
+          credentialurl: 
+          credentialname: EN
+          details: |
+            
 
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+#projects:
+    #title: Projects
+    #intro: >
+      
+    #assignments:
 
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#oss:
+    #title: OSS Contributions
+    #intro: >
+     
+    #contributions:
 
 publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+    title: Publications
+    intro: |
+    papers:
+      - title: System and method for securely hosting multiple network operators in a shared spectrum access system on a single virtual base station environment 
+        link: "#"
+        authors: M. Notargiacomo, T. Landry, J. Masters, R. Orlandini, J. Courington, F. Foresta, S. Turner, A. Pagani, D. Di Iorio, K. Jacobs, P. Henkle, V. Agrawal, S. Eswaravaka, P. Stath 
+        conference: Patent
+    
+      - title: Orchestrator and interconnection fabric mapper for a virtual wireless base station
+        link: "#"
+        authors: M. Notargiacomo, J. Courington, S. Turner, J. Masters, V. Agrawal, F. Foresta
+        conference: Patent
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Blockchain-based method and system for securing a network of virtual wireless base stations
+        link: "#"
+        authors: J. Courington, F. Foresta, V. Agrawal
+        conference: Patent
 
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Integrated radio network with multi operator and multi signal format fronthaul capability 
+        link: "#"
+        authors: M. Notargiacomo, G. Brizzi, F. Foresta, A. Pagani, G. Chiurco, G. Gabelli, D. Durante, F. Marchese, R. Wank, M. Tierney 
+        conference: Patent
+    
+      - title: Performance of Intent-based Virtualized Network Infrastructure Manangement
+        link: "#"
+        authors: F. Callegati, W. Cerroni, C. Contoli, F. Foresta
+        conference: IEEE International Conference on Communications, 2017
 
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
+      - title: Intent-based management and orchestration of heterogeneous openflow/IoT SDN domains
+        link: "#"
+        authors: W. Cerroni, C. Buratti, S. Cerboni, G. Davoli, C. Contoli, F. Foresta, F. Callegati, R. Verdone
+        conference: IEEE Conference on Network Softwarization (NetSoft), 2017
 
-      He is a great employee!
+      - title: Implementation of service function chaining control plane through OpenFlow
+        link: "#"
+        authors: G. Davoli, W. Cerroni, C. Contoli, F. Foresta, F. Callegati
+        conference: IEEE Conference on Network Function Virtualization and Software Defined Networks, 2017
+
+      - title: "Improving OpenStack networking: Advantages and performance of native SDN integration"
+        link: "#"
+        authors: F. Foresta, W. Cerroni, L. Foschini, G. Davoli, C. Contoli, A. Corradi, F. Callegati
+        conference: IEEE International Conference on Communications, 2018
 
 skills:
-  title: Skills &amp; Proficiency
+    title: Skills &amp; Proficiency
 
-  toolset:
-  - name: Python & Django
-    level: 98%
+    toolset:
+      - name: Technical, solution and enterprise architecture design
+        level: 100%
 
-  - name: Javascript & jQuery
-    level: 98%
+      - name: Kubernetes, Docker/containerd
+        level: 95%
 
-  - name: Angular
-    level: 98%
+      - name: OpenStack, QEMU/KVM
+        level: 90%
 
-  - name: HTML5 & CSS
-    level: 95%
+      - name: Linux
+        level: 95%
 
-  - name: Ruby on Rails
-    level: 85%
+      - name: Bash, python
+        level: 95%
 
-  - name: Sketch & Photoshop
-    level: 60%
+      - name: Hyperscalers (Google Cloud Platform, Amazon Web Services, Microsoft Azure)
+        level: 65%
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
