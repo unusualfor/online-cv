@@ -50,11 +50,13 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I bridge the gap between business strategy and technical execution in cloud-native telecom.
-      For 11+ years, I've defined infrastructure roadmaps, led cross-functional teams, and translated 
-      customer requirements into scalable products — from concept through delivery.
-      As Principal Architect, I currently shape mid-term and long-term product direction 
-      across Cloud, AI, Edge and Telecommunications, collaborating with engineering, sales, and executive leadership.
+      I bridge the gap between technical depth and business value in cloud-native infrastructure.
+      For 11+ years, I've designed Kubernetes-based platform architectures, led technical presales engagements,
+      and driven partner and customer adoption of cloud-native solutions — from evaluation through production.
+      Hands-on experience with Kubernetes and related solutions, such as Red Hat OpenShift and SUSE Rancher in carrier-grade environments, 
+      including cluster architecture, deployment, and integration. Proven track record leading PoCs, technical workshops, and architecture 
+      walkthroughs across EMEA, APAC, and US markets. Active O-RAN Alliance standards contributor 
+      and conference speaker. Certified Kubernetes Administrator (CKA) and Security Specialist (CKS).
 education:
     title: Education
     info:
@@ -62,9 +64,6 @@ education:
         university: University of Bologna
         time: 2015 - 2017
         details: |
-          Advanced calculus and graph theory, advanced radio systems, photonics, 
-          wireless sensor networks, teletraffic, delay-tolerant networking, optical networking, 
-          advanced computer networking, distributed systems and middlewares, multimedia services.
             - Performed international research in collaboration with EIT and UCLA on SDN controllers performance in cloud environments
             - Networking Lab 101 (BSc) course assistant
             - Graduated with 110L/110, 2x scholarship winner
@@ -72,9 +71,6 @@ education:
         university: University of Bologna
         time: 2011 - 2015
         details: |
-           Activities and societies: Calculus, algebra, advanced physics, chemistry, economics, electrotechnics, 
-           automation, electrical machines, advanced electronics, computer science, digital systems programming, 
-           free and guided propagation, advanced transmission systems, computer networking.
              - Graduated with 110/110
 
 experiences:
@@ -84,15 +80,22 @@ experiences:
         time: 2018 - Present
         company: JMA Wireless, Bologna Technical Center
         details: |
-          Kickstarted the newly created dynamic architecture team to research and spearhead the exploration, definition, 
-          and implementation of system-level specifications, propelling the development efforts for the JMA XRAN 5G solution. 
-          Active contribution to enhancing product distinctiveness, facilitating knowledge exchange within the organization, 
-          ensuring compliance with customer requirements, pertinent regulations, and industry benchmarks 
-          in terms of interoperability, security, and performance.
-          Regular engagement in C-level meetings, supporting and providing strategic guidance and insights to 
-          shape the long-term future direction of the company. These meetings serve as crucial platforms for 
-          advising key stakeholders and collaboratively defining the next steps to drive organizational success.
-          Contributor to O-RAN Alliance standards, coordinating technical positions across engineering and business stakeholders.
+          Led cloud-native platform architecture and partner-facing technical engagements for 5G network solutions 
+          deployed on Red Hat OpenShift and Kubernetes. Designed both high-level and low-level architectures 
+          for carrier-grade container platforms on x86 and ARM64, including cluster installation, configuration, 
+          and ongoing platform engineering.
+          Drove adoption through technical deep dives, PoCs, and solution workshops with partners and customers 
+          across EMEA, APAC, and US markets, achieving 95%+ success rate on technical evaluations.
+          Implemented CI/CD pipelines, GitOps workflows, and Infrastructure as Code (Ansible) to automate 
+          platform provisioning, reducing deployment time by 60%.
+          Managed strategic technology partnerships with Red Hat, SUSE, AWS, and system integrators, 
+          aligning technical roadmaps and joint go-to-market activities.
+          Regular engagement in C-level meetings, providing strategic technology guidance to shape customer 
+          and partner cloud-native adoption strategies.
+          Active contributor to 3GPP and O-RAN Alliance standards development, participating in specifications, 
+          plugfests, and interoperability testing. 10+ keynote presentations and panels at industry conferences.
+          Led architecture design for defense platform solutions and contributed to NTIA NOFO 2 
+          award-winning platform development.
             - (2024-Present) Director, Software Architecture: leading software architecture efforts and research direction across Cloud, AI, Edge and Telecommunications domains.
             - (2023-2024) Principal Architect: defined the mid-term and long-term product direction.
             - (2021-2023) Manager, 5G O&M and Cloud: led a team of 10 members towards transitioning JMA XRAN to Cloud.
@@ -245,29 +248,29 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
+      - name: Kubernetes & OpenShift (CKA/CKS), cluster architecture & installation
+        level: 95%
+
+      - name: Technical presales, PoCs, architecture walkthroughs & workshops
+        level: 95%
+
+      - name: CI/CD, GitOps, Infrastructure as Code (Ansible)
+        level: 75%
+
+      - name: Cloud-native application architecture (Kubernetes, microservices, containers)
+        level: 95%
+
       - name: Technical, solution and enterprise architecture design
         level: 100%
 
-      - name: Product & Infrastructure Strategy
-        level: 85%
-
-      - name: Cross-functional Leadership & Stakeholder Management
+      - name: Partner & stakeholder engagement, executive presentations
         level: 90%
-
-      - name: Kubernetes, Docker/containerd
+ 
+      - name: Linux (RHEL), Bash, Python
         level: 95%
 
-      - name: OpenStack, QEMU/KVM
-        level: 90%
-
-      - name: Linux
-        level: 95%
-
-      - name: Bash, python
-        level: 95%
-
-      - name: Hyperscalers (Google Cloud Platform, Amazon Web Services, Microsoft Azure)
-        level: 65%
+      - name: Hybrid Cloud (AWS, GCP, Azure, OpenStack)
+        level: 75%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
